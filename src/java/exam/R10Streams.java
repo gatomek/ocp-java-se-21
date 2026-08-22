@@ -5,8 +5,8 @@ import java.util.List;
 public class R10Streams {
 
     public static void main(String[] args) {
-        //
-        List<String> list = List.of("alpha", "bravo", "charlie", "delta", "epsilon", "foxtrot");
+        // NATO phonetic alphabet
+        List<String> list = List.of("alfa", "bravo", "charlie", "delta", "echo", "foxtrot", "golf");
 
         // list forEach loop
         list.forEach(System.out::println);
