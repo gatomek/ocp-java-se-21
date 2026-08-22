@@ -1,3 +1,5 @@
 .obsidian/
+notes/
 .idea/
 *.iml
+\!rsc/
