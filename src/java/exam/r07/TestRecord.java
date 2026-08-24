@@ -1,6 +1,6 @@
-package exam;
+package exam.r07;
 
-public class R07TestRecord {
+public class TestRecord {
     public static void main(String[] args) {
         System.out.println("Hello Records!");
 
@@ -17,7 +17,7 @@ record WorkerRecord(String name) {
         name = name + "!";
     }
 
-    //public exam.WorkerRecord( String name) {
+    //public exam.r07.WorkerRecord( String name) {
     //  this.name = name + "!";
     //}
 }

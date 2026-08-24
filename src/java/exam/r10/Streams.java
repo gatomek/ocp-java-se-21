@@ -1,8 +1,8 @@
-package exam;
+package exam.r10;
 
 import java.util.List;
 
-public class R10Streams {
+public class Streams {
 
     public static void main(String[] args) {
         // NATO phonetic alphabet
