@@ -1,4 +1,4 @@
-package exam;
+package exam.r10;
 
 import java.util.IntSummaryStatistics;
 import java.util.List;
@@ -10,9 +10,10 @@ import java.util.Set;
 import java.util.TreeSet;
 import java.util.stream.Collectors;
 
-// cmd: java --enable-preview --source 21 exam.R10StreamOfIntegers.java
+// cmd: java --enable-preview --source 21 exam.r10.R10StreamOfIntegers.java
+// JEP430: String templates: https://openjdk.org/jeps/430
 
-public class R10StreamOfIntegers {
+public class StreamOfIntegers {
 
     public static void main(String... args) {
         List<Integer> list = List.of(1, 2, 3, 4, 9, 5, 7, 8);

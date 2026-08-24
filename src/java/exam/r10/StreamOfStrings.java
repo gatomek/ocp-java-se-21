@@ -1,10 +1,10 @@
-package exam;
+package exam.r10;
 
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-public class R10StreamOfStrings {
+public class StreamOfStrings {
 
     public static void main(String[] args) {
 
