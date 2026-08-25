@@ -11,7 +11,7 @@ public class FormattingDatesAndTimes {
     public static void main(String[] args) {
 
         LocalDate ld = LocalDate.of(1982, Month.JANUARY, 25);
-        LocalTime lt = LocalTime.of(9, 30, 15);
+        LocalTime lt = LocalTime.of(19, 30, 15);
         LocalDateTime ldt = LocalDateTime.of(ld, lt);
 
         DateTimeFormatter formatter = DateTimeFormatter.ISO_LOCAL_DATE_TIME;
@@ -25,6 +25,10 @@ public class FormattingDatesAndTimes {
 
         println();
         println(ldt.format(DateTimeFormatter.ofPattern("'What a month: 'MMMM'!!!'")));
+		
+		println();
+        println(lt.format(DateTimeFormatter.ofPattern("HH:mm")));
+        println(lt.format(DateTimeFormatter.ofPattern("hh:mm a")));
     }
 
     private static void println(String txt) {

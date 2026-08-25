@@ -2,4 +2,5 @@
 notes/
 .idea/
 *.iml
+out/
 \!rsc/
